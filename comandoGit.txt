@@ -38,6 +38,11 @@
   Obs:commit sig enviar para git linha de arquivo modificado e vem junto com comentario sobre o q vc fez na aquele commit
  -criar arq README.md na sua pasta 
  -git status
+ - git add --all ou git add -A  =>adciona arq q git nao reconheceu
+ -git commit -m "Primeiro Commit" =>dar primeiro commit
+ -clear =>limpar
+
+
  
 
 
