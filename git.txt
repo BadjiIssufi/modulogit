@@ -1,0 +1,14 @@
+O Git é um sistema de controle de versão distribuído de código aberto e gratuito , projetado para lidar com tudo, desde projetos pequenos a grandes, com velocidade e eficiência.
+
+O Git é fácil de aprender e tem uma pegada minúscula com desempenho extremamente rápido . Ele ultrapassa as ferramentas de SCM como Subversion, CVS, Perforce e ClearCase com recursos como ramificação local barata , áreas de preparação convenientes e vários fluxos de trabalho .
+Benefícios do Controle de Versão Distribuído
+As vantagens estão relacionadas à distribuição do processamento, redundância/replicação de repositórios e às novas possibilidades de colaboração entre desenvolvedores (novos fluxos de trabalho).
+
+Do Ponto de Vista do Desenvolvedor
+Rapidez. As operações são processadas localmente. Não é necessário passar pela rede e contatar o servidor central para fazer um commit, log ou diff por exemplo.
+Autonomia. A conexão com a rede só é necessária para trocar revisões com outros repositórios. Fora isso, trabalha-se desconectado e em qualquer lugar, como num cliente por exemplo.
+Do Ponto de Vista da Gerência/Coordenação
+Parte das decisões gerenciais envolve manter livre o caminho da equipe para que possam trabalhar da melhor maneira possível. Outras decisões importantes são sobre redução de custos. Nestes dois casos específicos, o modelo distribuído oferece as seguintes vantagens:
+
+Confiabilidade. No sistema centralizado, uma pane no servidor interrompe todo o desenvolvimento. Já no sistema distribuído, além de a equipe poder continuar seu trabalho, os repositórios dos desenvolvedores funcionam como cópias de backup de todo o projeto.
+Redução de custos com servidor. A carga de processamento fica distribuída nas próprias máquinas dos desenvolvedores. O repositório "central", quando existe, tem o papel do repositório "oficial" e não como processador central das requisições.

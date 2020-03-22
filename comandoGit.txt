@@ -1,0 +1,46 @@
+-------------------------
+       comados Git
+---------------------------
+1-cmd:git -version
+2-instalar-depois-renicia pc
+3-conguraçao com informaçao pessoas:
+ 3.1-nome de quem esta trabando na maq:
+    -git congig --global user.name "Issufi Badji"
+    -git config --global user.email "issufibadji@gmail.com"
+ 3.2-verificar as informaçoes cadastradas:
+     -git config user.name
+     -git config user.email
+     -git config --list
+
+4-colocar nome de editor de texto :
+    -git config --global core.editor "code --wait"
+5-como crair no seu pc
+  -cd C:/Users
+  -cd Maio Albino
+  -cd Desktop 
+  -Cria pasta no ambiente
+  -cd nomePasta criado no ambiente
+6- listar arquivos na pasta
+  -dir 
+7-Criar Repositorio:
+ 7.1.navegando cd até arq:
+ -/c/xampp/htdocs/Ferias_2020/modogit
+
+  7.2.iniciar repositorio
+    -entre dentro da sua pasta de projeto:
+     -/c/xampp/htdocs/Ferias_2020/modogit
+     -git init
+     resul: /c/xampp/htdocs/Ferias_2020/modogit (master)
+     obs:master sig. versão principal da sua sistema
+     -cd .git
+     -dir
+8-fazer commit
+  Obs:commit sig enviar para git linha de arquivo modificado e vem junto com comentario sobre o q vc fez na aquele commit
+ -criar arq README.md na sua pasta 
+ -git status
+ 
+
+
+
+    
+    
