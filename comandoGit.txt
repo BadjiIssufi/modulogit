@@ -41,6 +41,36 @@
  - git add --all ou git add -A  =>adciona arq q git nao reconheceu
  -git commit -m "Primeiro Commit" =>dar primeiro commit
  -clear =>limpar
+ -git log =>ver lista de tds commit 
+
+9-Criar no arq na sua pasta ou faz alteraçao no arq q ja existe
+  -git status
+  9.1-Para registras este aqvs no git tem que dar commit
+  - git commit -m "Criando arquivos Principais Index e Style" ou git    commit -am "Adicionar e Criando arquivos Principais Index e Style"
+  -git status
+  -git log
+10-Verficar o que vc fez e alterar
+ -git log
+ -git branch
+ -git reset --hard + (id de commit q quer voltar nele) ==>ignora ultimo    commit nao é recomendavel usar quand esta trabalho com equip
+ -git reset --soft +id
+ -git reset --soft +id
+
+11-Trabalhando com diferentes Branches
+ -git branch teste ==>criar branch
+ -git branch  ==>listar branch
+ -git checkout teste ==>trocar de branch
+
+12-Verificar comentario 
+ -git diff =>detalha o que foi feita
+ - git diff --name-only=>nome de arq q foi alterado
+ - git diff index.html => td que foi alterdo no arq index
+ - git checkout HEAD -- index.html =>dizfazer comentario/voltar no comentario anterior 
+
+
+
+
+
 
 
  
