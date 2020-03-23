@@ -65,7 +65,41 @@
  -git diff =>detalha o que foi feita
  - git diff --name-only=>nome de arq q foi alterado
  - git diff index.html => td que foi alterdo no arq index
- - git checkout HEAD -- index.html =>dizfazer comentario/voltar no comentario anterior 
+ - git checkout HEAD -- index.html =>dizfazer comentario/voltar no comentario anterior
+
+13-Criando um repositório no Github
+  -vai no "Create a new repository"
+  -depois nome de Repositorio e descriçao , privado/publico e op readme
+  -click na criar repositorio 
+  - o url padrao :https://github.com/BadjiIssufi/modulogit
+
+14-Conectando repositório local ao remoto
+  Generating a new SSH key:
+  -https://help.github.com/en/github/authenticating-to-github/generating-a-new-ssh-key-and-adding-it-to-the-ssh-agent
+  -ssh-keygen -t rsa -b 4096 -C "issufibadji@gmail.com"
+  -caminho onde vai ficar arq com chave:(/c/Users/Maio Albino/.ssh/id_rsa)
+   -Da enter 4x
+    -vai (/c/Users/Maio Albino/.ssh/id_rsa): na pasta .ssh/id_rsa ou id_rsa.pub copia conteudo;
+    -depois vai no foto perfil do seu git/setting/SSH and GPG keys  e ai cola conteudo no campo key;
+=========Caso nao existe==========
+crie um novo repositório na linha de comando
+echo "# modulogit" >> README.md 
+git init 
+git add README.md 
+git commit -m "primeiro commit" 
+git remote add origin https://github.com/BadjiIssufi/modulogit.git
+ git push -u origin master
+=========se já existe============
+  envie um repositório existente a partir da linha de comando(cria local e remoto)
+ -git remote add origin https://github.com/BadjiIssufi/modulogit.git =>copia este url e cola   no seu terminal 
+ -git push -u origin master
+ -git remote -v =>verificar se está remota
+obs: 
+origin  https://github.com/BadjiIssufi/modulogit.git (fetch) =>fetch serve para puchar do de servidor remota para makina local
+origin  https://github.com/BadjiIssufi/modulogit.git (push)=>push serve para enviar de makina local para servidor remota
+
+-git push -u origin master => ato de enviar
+
 
 
 
